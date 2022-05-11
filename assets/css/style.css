@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.nav {
+    height: 50px;
+    background: #fff;
+    position:relative;
+    top:0;
+
+}
+.home-index {
+    background: rgb(228, 226, 226);
+    
+}
+.home-index h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightblue;
+    margin: 0 10px 0 20px;
+    position:absolute;
+    top: 10px;
+}
+.home-index input {
+    border-style: none;
+    background-color: rgb(236, 236, 236);
+    border-radius: 2px;
+    padding-left: 10px;
+    height: 30px;
+}
+.signup {
+    position: absolute;
+    right: -72px;
+    top: -1px;
+    line-height: 15px;
+    font-size: 15px;
+    height: 30px;
+    background-color: #ed758a;
+    text-decoration: none;
+    color: white;
+    padding: 7px 10px;
+}
+.form-signin {
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    font-size: 14px;
+    outline: none;
+
+}
+.form-signin button {
+    height: 30px;
+    font-weight: 400;
+    border-style: none;
+    padding: 0 5px 0 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #999;
+    background-color: azure;
+}
+.footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    height: 30px;
+    bottom: 0;
+    padding: 8px 20px;
+    color: #fff;
+    font-family: arial;
+    font-size: 13px;
+}
+.content {
+    width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px;
+}
+.content form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.content form {
+    text-align: center;
+}
+.content form button {
+    border-style: none;
+    background: #e98f8f;
+    height: 30px;
+    width: 60px;
+    color: #fff;
+}
+.main-body h3 {
+    text-align: center;
+    color: rgb(65, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
